@@ -18,4 +18,6 @@ server side: add project, change project, delete project etc.
 2. display on page. 
 3. css. with narwhal colors. blues, black&whites, blood(orange, pink, red).
 
-still to
+//add timeline in about. 
+//deploy to netlify. 
+//make new foto in black clothes. 

@@ -1,0 +1,17 @@
+.About--main{
+
+}
+.About--title{
+    font-size: 1.7vw;
+    letter-spacing: 0.3em;
+    word-spacing: 0.3em;
+}
+.About--text{
+    font-size: 1.2vw;
+    padding: 1em 22em 3em 22em;
+    line-height: 1.7vw;
+    letter-spacing: 0.15em;
+}
+.About--img {
+    filter:grayscale(80%)
+}

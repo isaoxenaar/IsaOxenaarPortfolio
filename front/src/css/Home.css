@@ -1,0 +1,13 @@
+.Home--main{
+
+}
+.Home--text{
+    font-size: 3vw;
+    padding: 4em 4em 5em 4em;
+}
+.Home--link{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(127, 208, 255);
+}

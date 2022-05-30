@@ -1,12 +1,12 @@
 type Project = {
 
-    title:String;
-    github:String;
-    netlify:String,
-    image:String,
-    explanation:String,
-    toollist:String[],
-
+    title:string;
+    github:string;
+    netlify:string,
+    image:number,
+    created:string,
+    explanation:string,
+    toollist:string[],
 }
 
 export default Project;

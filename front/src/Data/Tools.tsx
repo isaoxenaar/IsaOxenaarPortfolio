@@ -1,9 +1,11 @@
 const Tools = {
     "tools": [
     {"name": "C#", 
-    "logo": "https://e7.pngegg.com/pngimages/328/221/png-clipart-c-programming-language-logo-microsoft-visual-studio-net-framework-javascript-icon-purple-logo.png"},
+    "logo": "https://shwanoff.ru/wp-content/uploads/2018/06/logo-csharp.png"},
     {"name": ".NET", 
-    "logo": "https://e7.pngegg.com/pngimages/337/526/png-clipart-net-framework-version-history-software-framework-microsoft-installation-microsoft-blue-text.png"
+    "logo": "https://www.nilkanth.com/content/images/2008/10/newdotnetlogo_2.png"
     }
     ]
 }
+
+export default Tools;

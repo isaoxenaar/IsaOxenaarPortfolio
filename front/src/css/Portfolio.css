@@ -1,0 +1,8 @@
+.Portfolio--main{
+    display: flex;
+    flex-flow:wrap;
+    align-items:center;
+    justify-content: center;
+    padding: 2em;
+}
+.Portfolio--text{}

@@ -1,0 +1,36 @@
+.Card--img{
+    border-radius: 3em;
+    border: "3px";
+    border-style: solid;
+    border-color: white;
+    filter:grayscale(100%);
+}
+.Card--img:hover{
+    
+}
+.Card--main{
+    padding: 1em;
+    margin: 2em;
+    background-color: aliceblue;
+    border-radius: 3em;
+}
+.Card--text{
+    font-size: 1.8vw;
+    color: rgb(0, 131, 65);
+}
+.Card--links{
+   padding: 0.5em;
+}
+.Card--github, .Card--netlify{
+    text-decoration: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 1em;
+    font-size: 1.5vw;
+    color:#ffffff;
+    background-color: rgb(255, 140, 94);
+    border-radius: 3em;
+}
+.Card--tools{
+    list-style-type:none;
+}
