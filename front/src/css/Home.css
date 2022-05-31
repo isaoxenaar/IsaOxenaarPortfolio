@@ -11,3 +11,6 @@
 a:hover{
     color: rgb(127, 208, 255);
 }
+a:visited {
+    color:orange;
+}
