@@ -21,3 +21,4 @@ server side: add project, change project, delete project etc.
 //add timeline in about. 
 //deploy to netlify. 
 //make new foto in black clothes. 
+//link to codewars account.

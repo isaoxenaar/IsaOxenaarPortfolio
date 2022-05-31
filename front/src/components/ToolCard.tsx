@@ -1,6 +1,6 @@
 import React, {FC} from "react";
 import "../css/Tools.css";
-import * as data from "../Data/Tools";
+//import * as data from "../Data/Tools";
 
 interface IProps {
     tool:any

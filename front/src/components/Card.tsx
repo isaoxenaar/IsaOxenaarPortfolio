@@ -11,7 +11,7 @@ const Card:FC<IProps> = ({proj}) => {
 
  return <section className="Card--main">
      <h3 className="Card--text">{proj.title}</h3>
-     <img className="Card--img" src={images[proj.image]} width="600px" height="350px"/>
+     <img alt="" className="Card--img" src={images[proj.image]} width="600px" height="350px"/>
      <h4>made with love &:  </h4>
      <ul className="Card--tools">{proj.toollist.map(tool => <li>{tool}</li>)}</ul>
      <section className="Card--links">
