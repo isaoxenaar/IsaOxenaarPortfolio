@@ -8,9 +8,9 @@
 .Home--link{
     text-decoration: none;
 }
-a:hover{
-    color: rgb(127, 208, 255);
+.Home--link:visited {
+    color:#ff6039;
 }
-a:visited {
-    color:orange;
+.Home--link:hover{
+    color: rgb(255, 255, 255);
 }

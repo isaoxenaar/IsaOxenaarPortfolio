@@ -11,12 +11,17 @@
 .Card--main{
     padding: 1em;
     margin: 2em;
-    background-color: aliceblue;
+    background-image: url("../Images/skin.jpg");
+    background-size: cover;
     border-radius: 3em;
 }
 .Card--text{
     font-size: 1.8vw;
-    color: rgb(0, 131, 65);
+    color: rgb(255, 255, 255);
+}
+.Card--love{
+    color:#000000;
+    font-size:1.3em;
 }
 .Card--links{
    padding: 0.5em;
@@ -33,4 +38,5 @@
 }
 .Card--tools{
     list-style-type:none;
+    color:black;
 }

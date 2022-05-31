@@ -5,4 +5,6 @@
     justify-content: center;
     padding: 2em;
 }
-.Portfolio--text{}
+.Portfolio--title{
+    font-size: 2vw;
+}
