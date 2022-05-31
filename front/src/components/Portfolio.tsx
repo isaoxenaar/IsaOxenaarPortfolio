@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import "../css/Portfolio.css";
 import * as data from "../Data/Projects";
 //import Project from "../Types/Project";

@@ -9,7 +9,7 @@ interface IProps {
 const Tool:FC<IProps> = ({tool}) => {
  return <section className="ToolCard--main">
      <h3 className="ToolCard--name">{tool.name}</h3>
-     <img className="ToolCard--img" width="200px" src={tool.logo} />
+     <img alt="" className="ToolCard--img" width="200px" src={tool.logo} />
  </section>
 }
 
