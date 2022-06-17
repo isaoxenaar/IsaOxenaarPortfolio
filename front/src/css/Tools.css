@@ -1,9 +1,39 @@
 .ToolCard--main{
-
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 2rem;
 }
 .ToolCard--img{
 
+
 }
-.ToolCard--name{
+.ToolCard--name{}
     
+.Tools-main {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 2rem;
+}
+.Javascript {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+.Python{
+    grid-column: 3 / span 2;
+    grid-row: 1;
+}
+.C{
+    grid-column: 5 / span 2;
+    grid-row: 1;
+}
+
+.HTML{
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+.CSS{
+    grid-column: 4 / span 3;
+    grid-row: 2;
 }

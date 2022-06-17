@@ -7,7 +7,7 @@ interface IProps {
 }
 
 const Tool:FC<IProps> = ({tool}) => {
- return <section className="ToolCard--main">
+ return <section className={tool.name}>
      <h3 className="ToolCard--name" style={{color:tool.color, fontSize: tool.logo}}>{tool.name}</h3>
  </section>
 }

@@ -12,30 +12,35 @@ const Tools = {
     "color": "orange"
     },
     {"name": "Python", 
-    "logo": ""
+    "logo": 20, 
+    "color": "yellow"
     },
     {"name": "SQL", 
-    "logo": ""
+    "logo": 40,
+    "color": "white"
     }, 
     {"name": "TypeScript", 
-    "logo": ""
+    "logo": 50,
+    "color": "beige"
     }, 
     {"name": "CSS", 
-    "logo": ""
+    "logo": 60,
+    "color": "grey"
     },
     {"name": "HTML", 
-    "logo": ""
+    "logo": 60, 
+    "color": "pink"
     }],
     "tools":[
     {"name": "React", 
-    "logo": ""
+    "logo": 70, 
+    "color": "purple"
     },
     {"name": ".NET", 
-    "logo": ""
+    "logo": 80,
+    "color": "aqua"
     },
-    {"name": "React", 
-    "logo": ""
-    }]
+    ]
 }
 
 export default Tools;
