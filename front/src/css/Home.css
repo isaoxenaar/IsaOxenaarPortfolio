@@ -1,9 +1,8 @@
 .Home--main{
-
 }
 .Home--text{
     font-size: 3vw;
-    padding: 4em 4em 5em 4em;
+    padding: 0em 4em 5em 4em;
 }
 .Home--link{
     text-decoration: none;
@@ -17,7 +16,7 @@
 .Home--img {
     position: absolute; 
     left: 18%; 
-    top: 25%;
+    top: 40%;
     width: 1200px;
     height: 800px;
     z-index:-1;
