@@ -9,8 +9,16 @@
     text-decoration: none;
 }
 .Home--link:visited {
-    color:#ff6039;
+    color:#aa9348;
 }
 .Home--link:hover{
     color: rgb(255, 255, 255);
+}
+.Home--img {
+    position: absolute; 
+    left: 18%; 
+    top: 25%;
+    width: 1200px;
+    height: 800px;
+    z-index:-1;
 }

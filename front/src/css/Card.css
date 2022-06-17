@@ -27,6 +27,7 @@
    padding: 0.5em;
 }
 .Card--github, .Card--netlify{
+    display: inline-block;
     text-decoration: none;
     padding-left: 1em;
     padding-right: 1em;
@@ -35,6 +36,10 @@
     color:#ffffff;
     background-color: rgb(255, 140, 94);
     border-radius: 3em;
+    transition: transform .2s;
+}
+.Card--github:hover, .Card--netlify:hover {
+    transform: scale(1.05);
 }
 .Card--tools{
     list-style-type:none;

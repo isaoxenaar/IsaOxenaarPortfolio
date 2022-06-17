@@ -1,9 +1,14 @@
 import React from "react";
 import "../css/Home.css";
+import whale from "./whale1.png";
+import Whale from "./whale";
 
 const Home = () => {
+
  return (<section className="Home--main">
+     <Whale/>
      <h1 className="Home--text">Hej! I am Full Stack .NET & Full Stack Javascript developer. Currently as a consultant at <a className="Home--link" href="https://salt.dev/">Salt</a> in Oslo/Stockholm.</h1>
+     <img className="Home--img" src={whale} />
  </section>)
 }
 

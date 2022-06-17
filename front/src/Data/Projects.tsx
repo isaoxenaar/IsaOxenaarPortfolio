@@ -1,7 +1,7 @@
 const projects = {
     "projects": [
         {"title":"1.5 meter", 
-        "github": "https://github.com/isaoxenaar/1.5meter-server, https://github.com/isaoxenaar/1.5Meter-client", 
+        "github": "https://github.com/isaoxenaar/1.5meter-server", 
         "netlify":"https://anderhalvemeter.netlify.app/", 
         "image":0,
         "created": "april 2022",
@@ -24,13 +24,13 @@ const projects = {
         "explanation": "Salt graduation project created together with the MOB", 
         "toollist": ["C#", "Typescript", ".NET", "React", "Microsoft Cognitive Services"]},
 
-        {"title": "Find Skill", 
-        "github": "", 
-        "netlify": "",
-        "image": 3, 
-        "created": "march 2022",
-        "explanation": "A recruitment tool full stack app to filter projects by skill and learn about user", 
-        "toollist": ["Typescript", "React", ".NET", "C#", "CSS", "Swagger"]}
+        // {"title": "Find Skill", 
+        // "github": "", 
+        // "netlify": "",
+        // "image": 3, 
+        // "created": "march 2022",
+        // "explanation": "A recruitment tool full stack app to filter projects by skill and learn about user", 
+        // "toollist": ["Typescript", "React", ".NET", "C#", "CSS", "Swagger"]}
     
     ]
 }

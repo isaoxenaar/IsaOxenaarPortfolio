@@ -3,6 +3,8 @@ body {
   font-family: 'Karma', serif;
   color: #ffffff;
   background-image:url("https://wallpaperaccess.com/full/759757.jpg");
+  /* background-image:url("https://www.motherjones.com/wp-content/uploads/2018/07/Narwhal_2018_07-11.jpg"); */
+  background-size: cover;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
