@@ -2,7 +2,7 @@
 }
 .Home--text{
     font-size: 3vw;
-    padding: 0em 4em 5em 4em;
+    padding: 0em 4em 0em 4em;
 }
 .Home--link{
     text-decoration: none;
@@ -13,10 +13,16 @@
 .Home--link:hover{
     color: rgb(231, 222, 222);
 }
+.Home--drawing{
+    position: relative;
+    margin: auto;
+    width: 1200px;
+    height: 300px;
+}
 .Home--img {
-    position: absolute; 
-    left: 18%; 
-    top: 40%;
+    position: absolute;
+    left: 5%; 
+    top:-120%;
     width: 1200px;
     height: 800px;
     z-index:-1;
@@ -24,11 +30,14 @@
 .Home--wink{
     position: absolute;
     z-index:1;
-    left: 40%;
-    top: 81%;
-    width: 20px;
-    height: 20px;
-    animation: mymove 5s infinite
+    left: 38%;
+    top: 12%;
+    width: 22px;
+    height: 22px;
+}
+.Home--drawing:hover .Home--wink{
+    animation: mymove 5s infinite;
+
 }
 @keyframes mymove{
     0%{background-color: transparent;}
