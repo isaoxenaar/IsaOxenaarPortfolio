@@ -2,22 +2,22 @@ const Tools = {
     "languages": [
     {"name": "C#", 
     "logo":90, 
-    "color": "blue"},
+    "color": "#FEF9E7"},
     {"name": "JavaScript", 
     "logo": 40,
-    "color": "red"
+    "color": "#FCF3CF"
     },
     {"name": "C", 
     "logo": 40,
-    "color": "orange"
+    "color": "#F9E79F"
     },
     {"name": "Python", 
     "logo": 20, 
-    "color": "yellow"
+    "color": "#F7DC6F"
     },
     {"name": "SQL", 
     "logo": 40,
-    "color": "white"
+    "color": "#F4D03F"
     }, 
     {"name": "TypeScript", 
     "logo": 50,
@@ -29,16 +29,16 @@ const Tools = {
     },
     {"name": "HTML", 
     "logo": 60, 
-    "color": "pink"
+    "color": "#D4AC0D "
     }],
     "tools":[
     {"name": "React", 
     "logo": 70, 
-    "color": "purple"
+    "color": "#566573"
     },
     {"name": ".NET", 
     "logo": 80,
-    "color": "aqua"
+    "color": "#808B96"
     },
     ]
 }

@@ -2,6 +2,7 @@
 .card{
   position: relative;
   height:50vmin;
+  left: 0;
 }
 .card-after {
     position: absolute;
