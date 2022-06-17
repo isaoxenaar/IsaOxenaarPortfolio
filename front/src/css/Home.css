@@ -11,7 +11,7 @@
     color:#aa9348;
 }
 .Home--link:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(231, 222, 222);
 }
 .Home--img {
     position: absolute; 
@@ -21,3 +21,19 @@
     height: 800px;
     z-index:-1;
 }
+.Home--wink{
+    position: absolute;
+    z-index:1;
+    left: 40%;
+    top: 81%;
+    width: 20px;
+    height: 20px;
+    animation: mymove 5s infinite
+}
+@keyframes mymove{
+    0%{background-color: transparent;}
+    15%{background-color: #eff2f5;}
+    100%{background-color: transparent;}
+}
+    
+/* #eff2f5 */

@@ -11,11 +11,11 @@ function App() {
   return (
     <main className="App--main">
       <section className="App--title">
-      <header className="App--header">God å møte deg -- Trevligt att träffas </header>
+      <header className="App--header">God å møte deg</header>
       <nav className="App--nav">
       <Link className="App--link1" to="/">Hjem</Link>
       <Link className="App--link2" to="/Portfolio">Portefølje</Link>
-      <Link className="App--link3" to="/Tools">verktøy</Link>
+      <Link className="App--link3" to="/Tools">Verktøy</Link>
       <Link className="App--link4" to="/About">Om meg</Link>
       <Link className="App--link5" to="/Contact">Contact</Link>
       </nav>
