@@ -1,24 +1,29 @@
-style of the portfolio page, 
--- 
-
-what is on there:
--- cards per project. with links to github, link to netlify, image, techniques, explanation.
-
--- about. 
--- tools.
--- Portfolio.
-
-Homepage = Full Stack .Net & Full Stack Javascript developer, consultant at <Salt/> of Isa Oxenaar. 
-header, nav bar, footer, main image of whales, 
 
 
 server side: add project, change project, delete project etc. 
 
-1. add images and links. 
-2. display on page. 
-3. css. with narwhal colors. blues, black&whites, blood(orange, pink, red).
-
-//add timeline in about. 
-//deploy to netlify. 
-//make new foto in black clothes. 
+//tools to add. JS, Node, React, TS, C#, C, Webdriver, SQL, Redux, 
 //link to codewars account.
+
+project: skillfinder
+project: egg calender
+project: 
+
+css project: portfolio: grid, animation.
+data project: unicef data-viz with d3, use 
+fullstack C#: MVC, razor pages, Swagger. riddle app with hints etc or a book app. 
+dotnet Loves React: recruitment tool.
+fullstack Javasript: React Native front, Javascript back, React-Redux etc. kids app. 
+art-project: wolkekunde. 
+
+today:
+- portfolio walvis af
+- begin met data project
+- connect recruitment tool to projects
+
+1. grid tools . 
+2. contact page. 
+3. cv volunteer work toevoegen. 
+4. start witih unicef project.
+5. fix computer so i can work on recruitment/art gallery tool. 
+6. complex chat app like slack rebuild with chatroulette func.
