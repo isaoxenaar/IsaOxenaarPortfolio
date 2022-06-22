@@ -11,7 +11,6 @@ const Home = () => {
      <section className="Home--drawing">
      <img className="Home--img" alt="" src={whale} />
      <div className="Home--wink"></div>
-
      </section>
  </section>)
 }

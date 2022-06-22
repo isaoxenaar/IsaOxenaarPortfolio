@@ -5,11 +5,17 @@ const Contact = () => {
     const salt = "< Salt />"
  return(<section className="Contact--main">
     <article>
-    <text className="Contact--intro">For inquiries Contact <a className="Contact--salt" href="https://salt.dev/">{salt}</a>directly <h2>salt@dev.se</h2> or get in touch with me personally <h2>isa.oxenaar@appliedtechnology.se</h2> </text>
-    </article>
+    <text className="Contact--intro">For more information : 
+      <ul>
+         <li>go to --&gt; <a className="Contact--salt" href="https://salt.dev/">{salt}</a> </li>
+         <li>contact them directly at salt@dev.se</li>
+         <li>get in touch with me personally <text className="Contact--personal">isa.oxenaar@appliedtechnology.se</text></li>
+      </ul>
+   </text>
+   </article>
     <section className="Contact--links">
-    {/* <a>linkedin</a>
-    <a>github</a> */}
+      <a href="https://www.linkedin.com/in/isa-oxenaar/"><img src="https://www.shareicon.net/data/256x256/2015/08/04/79809_gray_512x512.png"/></a>
+      <a href="https://github.com/isaoxenaar"><img src="https://daeb.co.uk/assets/images/github.png"/></a>
     </section>
  </section>)
 }

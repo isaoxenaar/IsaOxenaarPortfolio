@@ -1,4 +1,5 @@
 .Home--main{
+    height: 100vh;
 }
 .Home--text{
     font-size: 3vw;
@@ -26,7 +27,7 @@
     top:-120%;
     width: 1200px;
     height: 800px;
-    z-index:-1;
+    z-index:0;
 }
 .Home--wink{
     position: absolute;
@@ -38,7 +39,6 @@
 }
 .Home--drawing:hover .Home--wink{
     animation: mymove 5s infinite;
-
 }
 @keyframes mymove{
     0%{background-color: transparent;}
@@ -46,4 +46,3 @@
     100%{background-color: transparent;}
 }
     
-/* #eff2f5 */

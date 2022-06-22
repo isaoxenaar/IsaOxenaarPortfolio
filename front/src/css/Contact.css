@@ -1,0 +1,47 @@
+.Contact--main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 73vh;
+    padding: 3em;
+}
+.Contact--intro {
+    font-size: 1.5vw;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    text-align: start;
+}
+.Contact--salt{
+    display: inline-block;
+    color:#aa9348;
+    font-weight:bolder;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 3em;
+    padding: 0.3em;
+    transition: transform .2s;
+}
+.Contact--salt:hover {
+    color:rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+.Contact-salt:visited{
+    color: #aa9348;
+}
+.Contact--personal {
+    color: rgb(138, 183, 201);
+}
+.Contact--links{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Contact--links, a {
+    padding: 0.5em;
+}
+.Contact--links, img {
+    width: 4em;
+    height: 4em;
+}

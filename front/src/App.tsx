@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
+    <>
     <main className="App--main">
       <section className="App--title">
       <header className="App--header">God å møte deg</header>
@@ -27,8 +28,9 @@ function App() {
         <Route path="/About" element={<About/>}></Route>
         <Route path="/Contact" element={<Contact/>}></Route>
       </Routes>
-      <footer className="App--footer"> © by me for you.</footer>
     </main>
+    <footer className="App--footer"> © by me for you.</footer>
+    </>
   );
 }
 
