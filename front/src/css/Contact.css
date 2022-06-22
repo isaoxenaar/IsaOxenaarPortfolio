@@ -38,10 +38,15 @@ ul {
     flex-direction: row;
     justify-content: center;
 }
-.Contact--links, a {
-    padding: 0.5em;
+.Contact--linkGit {
+    padding:0em 1em 0em 1em;
 }
-.Contact--links, img {
+.Contact--imgIn {
     width: 4em;
     height: 4em;
+} 
+.Contact--imgGit {
+    width: 3.5em;
+    height: 3.5em;
+    padding-top:0.25em;
 }

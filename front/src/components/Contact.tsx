@@ -14,8 +14,8 @@ const Contact = () => {
    </text>
    </article>
     <section className="Contact--links">
-      <a href="https://www.linkedin.com/in/isa-oxenaar/"><img src="https://www.shareicon.net/data/256x256/2015/08/04/79809_gray_512x512.png"/></a>
-      <a href="https://github.com/isaoxenaar"><img src="https://daeb.co.uk/assets/images/github.png"/></a>
+      <a className="Contact--linkIn" href="https://www.linkedin.com/in/isa-oxenaar/"><img className="Contact--imgIn" src="https://www.shareicon.net/data/256x256/2015/08/04/79809_gray_512x512.png"/></a>
+      <a className="Contact--linkGit" href="https://github.com/isaoxenaar"><img className="Contact--imgGit" src="https://daeb.co.uk/assets/images/github.png"/></a>
     </section>
  </section>)
 }
